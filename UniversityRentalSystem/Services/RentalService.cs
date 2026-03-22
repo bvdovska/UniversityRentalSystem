@@ -1,8 +1,10 @@
+using UniversityRentalSystem.Core.Models;
+
 namespace UniversityRentalSystem.Services;
 
 public class RentalService
 {
-        private readonly List<Equipment> _inventory = new();
+    private readonly List<Equipment> _inventory = new();
     private readonly List<User> _users = new();
     private readonly List<Rental> _rentals = new();
     
